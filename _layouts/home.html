@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+{%- include head.html -%}
+
+<body>
+
+{%- include header.html -%}
+
+<main class="page-content" style="display:flex;justify-content: center;align-items: center;" aria-label="Content">
+    <h2 style="text-align:center">{{- site.description | escape -}}</h2>
+</main>
+
+{%- include footer.html -%}
+
+</body>
+
+</html>
